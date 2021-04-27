@@ -104,7 +104,12 @@ open class MSWebViewReusePool: NSObject {
 //MARK: MSWebViewReusePool复用池相关操作
 extension MSWebViewReusePool{
     
-    //获取WebView
+    
+    /// 获取WebView
+    /// - Parameters:
+    ///   - holder: webview持有
+    ///   - preLoad: 是否使用H5本地加载
+    /// - Returns:
     public func getReuseWebView(ForHolder holder: AnyObject?,preLoad:Bool = true) -> MSReuseWebView? {
         guard let _ = holder else { return nil }
         disposalReuseWebView()

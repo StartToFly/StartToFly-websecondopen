@@ -15,7 +15,7 @@ class WebViewController: UIViewController {
     var lastTime: Double?
     
     lazy var webview: WKWebView = {
-        let wkwebView = MSWebViewReusePool.shared.getReuseWebView(ForHolder: self)!
+        let wkwebView = MSWebViewReusePool.shared.getReuseWebView(ForHolder: self,preLoad: true)!
         wkwebView.navigationDelegate = self
         wkwebView.addObserver(self, forKeyPath: #keyPath(WKWebView.estimatedProgress), options: .new, context: nil)
 
