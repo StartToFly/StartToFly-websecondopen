@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A358F36D2636CC2000F06F9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358F36C2636CC2000F06F9C /* AppDelegate.swift */; };
+		A358F3712636CC2000F06F9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358F3702636CC2000F06F9C /* ViewController.swift */; };
+		A358F3742636CC2000F06F9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A358F3722636CC2000F06F9C /* Main.storyboard */; };
+		A358F3762636CC2300F06F9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A358F3752636CC2300F06F9C /* Assets.xcassets */; };
+		A358F3792636CC2300F06F9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A358F3772636CC2300F06F9C /* LaunchScreen.storyboard */; };
+		A358F38E2636DD4F00F06F9C /* MSReuseWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358F38B2636DD4E00F06F9C /* MSReuseWebView.swift */; };
+		A358F38F2636DD4F00F06F9C /* MSWebViewReusePool.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358F38C2636DD4F00F06F9C /* MSWebViewReusePool.swift */; };
+		A358F3932636DD7800F06F9C /* synCookieJS.js in Resources */ = {isa = PBXBuildFile; fileRef = A358F3922636DD7800F06F9C /* synCookieJS.js */; };
+		A358F3972636DE6000F06F9C /* MSFileOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358F3962636DE6000F06F9C /* MSFileOperation.swift */; };
+		A358F39C2636E40B00F06F9C /* MSURLSchemeHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358F39B2636E40B00F06F9C /* MSURLSchemeHandler.swift */; };
+		A358F3A02636E5E800F06F9C /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A358F39F2636E5E800F06F9C /* MobileCoreServices.framework */; };
+		A358F3A42636E68100F06F9C /* cactus-h5-app.zip in Resources */ = {isa = PBXBuildFile; fileRef = A358F3A22636E68100F06F9C /* cactus-h5-app.zip */; };
+		A358F3A52636E68100F06F9C /* cactus-h5-for-app-student.zip in Resources */ = {isa = PBXBuildFile; fileRef = A358F3A32636E68100F06F9C /* cactus-h5-for-app-student.zip */; };
+		A358F3A82636E73A00F06F9C /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358F3A72636E73A00F06F9C /* WebViewController.swift */; };
+		A358F3AE2636EA5C00F06F9C /* MSZipArchiveMananger.swift in Sources */ = {isa = PBXBuildFile; fileRef = A358F3AD2636EA5C00F06F9C /* MSZipArchiveMananger.swift */; };
+		CFF4885FE252A797AB405E61 /* libPods-websecondopen.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4C77352C5CFB2909CEBC375 /* libPods-websecondopen.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		38390DF70E83E4E24FC1D2A3 /* Pods-websecondopen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-websecondopen.release.xcconfig"; path = "Target Support Files/Pods-websecondopen/Pods-websecondopen.release.xcconfig"; sourceTree = "<group>"; };
+		A358F3692636CC2000F06F9C /* websecondopen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = websecondopen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A358F36C2636CC2000F06F9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A358F3702636CC2000F06F9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A358F3732636CC2000F06F9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A358F3752636CC2300F06F9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A358F3782636CC2300F06F9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A358F37A2636CC2300F06F9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A358F38B2636DD4E00F06F9C /* MSReuseWebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSReuseWebView.swift; sourceTree = "<group>"; };
+		A358F38C2636DD4F00F06F9C /* MSWebViewReusePool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSWebViewReusePool.swift; sourceTree = "<group>"; };
+		A358F3922636DD7800F06F9C /* synCookieJS.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = synCookieJS.js; sourceTree = "<group>"; };
+		A358F3962636DE6000F06F9C /* MSFileOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSFileOperation.swift; sourceTree = "<group>"; };
+		A358F39B2636E40B00F06F9C /* MSURLSchemeHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSURLSchemeHandler.swift; sourceTree = "<group>"; };
+		A358F39F2636E5E800F06F9C /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		A358F3A22636E68100F06F9C /* cactus-h5-app.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "cactus-h5-app.zip"; sourceTree = "<group>"; };
+		A358F3A32636E68100F06F9C /* cactus-h5-for-app-student.zip */ = {isa = PBXFileReference; lastKnownFileType = archive.zip; path = "cactus-h5-for-app-student.zip"; sourceTree = "<group>"; };
+		A358F3A72636E73A00F06F9C /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		A358F3AD2636EA5C00F06F9C /* MSZipArchiveMananger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSZipArchiveMananger.swift; sourceTree = "<group>"; };
+		DAFADBC2D72909C150DB79C0 /* Pods-websecondopen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-websecondopen.debug.xcconfig"; path = "Target Support Files/Pods-websecondopen/Pods-websecondopen.debug.xcconfig"; sourceTree = "<group>"; };
+		E4C77352C5CFB2909CEBC375 /* libPods-websecondopen.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-websecondopen.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A358F3662636CC2000F06F9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A358F3A02636E5E800F06F9C /* MobileCoreServices.framework in Frameworks */,
+				CFF4885FE252A797AB405E61 /* libPods-websecondopen.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A358F3602636CC2000F06F9C = {
+			isa = PBXGroup;
+			children = (
+				A358F36B2636CC2000F06F9C /* websecondopen */,
+				A358F36A2636CC2000F06F9C /* Products */,
+				A358F39E2636E5E700F06F9C /* Frameworks */,
+				FD85A762452B45A4DB21688D /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A358F36A2636CC2000F06F9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A358F3692636CC2000F06F9C /* websecondopen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A358F36B2636CC2000F06F9C /* websecondopen */ = {
+			isa = PBXGroup;
+			children = (
+				A358F36C2636CC2000F06F9C /* AppDelegate.swift */,
+				A358F3702636CC2000F06F9C /* ViewController.swift */,
+				A358F3A72636E73A00F06F9C /* WebViewController.swift */,
+				A358F38A2636DD2600F06F9C /* WebSecondOpen */,
+				A358F3722636CC2000F06F9C /* Main.storyboard */,
+				A358F3752636CC2300F06F9C /* Assets.xcassets */,
+				A358F3772636CC2300F06F9C /* LaunchScreen.storyboard */,
+				A358F37A2636CC2300F06F9C /* Info.plist */,
+			);
+			path = websecondopen;
+			sourceTree = "<group>";
+		};
+		A358F38A2636DD2600F06F9C /* WebSecondOpen */ = {
+			isa = PBXGroup;
+			children = (
+				A358F3922636DD7800F06F9C /* synCookieJS.js */,
+				A358F3A22636E68100F06F9C /* cactus-h5-app.zip */,
+				A358F3A32636E68100F06F9C /* cactus-h5-for-app-student.zip */,
+				A358F3962636DE6000F06F9C /* MSFileOperation.swift */,
+				A358F38B2636DD4E00F06F9C /* MSReuseWebView.swift */,
+				A358F39B2636E40B00F06F9C /* MSURLSchemeHandler.swift */,
+				A358F38C2636DD4F00F06F9C /* MSWebViewReusePool.swift */,
+				A358F3AD2636EA5C00F06F9C /* MSZipArchiveMananger.swift */,
+			);
+			path = WebSecondOpen;
+			sourceTree = "<group>";
+		};
+		A358F39E2636E5E700F06F9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A358F39F2636E5E800F06F9C /* MobileCoreServices.framework */,
+				E4C77352C5CFB2909CEBC375 /* libPods-websecondopen.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD85A762452B45A4DB21688D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DAFADBC2D72909C150DB79C0 /* Pods-websecondopen.debug.xcconfig */,
+				38390DF70E83E4E24FC1D2A3 /* Pods-websecondopen.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A358F3682636CC2000F06F9C /* websecondopen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A358F37D2636CC2300F06F9C /* Build configuration list for PBXNativeTarget "websecondopen" */;
+			buildPhases = (
+				C20907A5B8327C125571801C /* [CP] Check Pods Manifest.lock */,
+				A358F3652636CC2000F06F9C /* Sources */,
+				A358F3662636CC2000F06F9C /* Frameworks */,
+				A358F3672636CC2000F06F9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = websecondopen;
+			productName = websecondopen;
+			productReference = A358F3692636CC2000F06F9C /* websecondopen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A358F3612636CC2000F06F9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					A358F3682636CC2000F06F9C = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = A358F3642636CC2000F06F9C /* Build configuration list for PBXProject "websecondopen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A358F3602636CC2000F06F9C;
+			productRefGroup = A358F36A2636CC2000F06F9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A358F3682636CC2000F06F9C /* websecondopen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A358F3672636CC2000F06F9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A358F3792636CC2300F06F9C /* LaunchScreen.storyboard in Resources */,
+				A358F3A42636E68100F06F9C /* cactus-h5-app.zip in Resources */,
+				A358F3762636CC2300F06F9C /* Assets.xcassets in Resources */,
+				A358F3932636DD7800F06F9C /* synCookieJS.js in Resources */,
+				A358F3742636CC2000F06F9C /* Main.storyboard in Resources */,
+				A358F3A52636E68100F06F9C /* cactus-h5-for-app-student.zip in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C20907A5B8327C125571801C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-websecondopen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A358F3652636CC2000F06F9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A358F38E2636DD4F00F06F9C /* MSReuseWebView.swift in Sources */,
+				A358F39C2636E40B00F06F9C /* MSURLSchemeHandler.swift in Sources */,
+				A358F3712636CC2000F06F9C /* ViewController.swift in Sources */,
+				A358F3AE2636EA5C00F06F9C /* MSZipArchiveMananger.swift in Sources */,
+				A358F38F2636DD4F00F06F9C /* MSWebViewReusePool.swift in Sources */,
+				A358F3A82636E73A00F06F9C /* WebViewController.swift in Sources */,
+				A358F36D2636CC2000F06F9C /* AppDelegate.swift in Sources */,
+				A358F3972636DE6000F06F9C /* MSFileOperation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A358F3722636CC2000F06F9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A358F3732636CC2000F06F9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A358F3772636CC2300F06F9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A358F3782636CC2300F06F9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A358F37B2636CC2300F06F9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A358F37C2636CC2300F06F9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A358F37E2636CC2300F06F9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DAFADBC2D72909C150DB79C0 /* Pods-websecondopen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T929475DB3;
+				INFOPLIST_FILE = websecondopen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.websecondopen.websecondopen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A358F37F2636CC2300F06F9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38390DF70E83E4E24FC1D2A3 /* Pods-websecondopen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T929475DB3;
+				INFOPLIST_FILE = websecondopen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.websecondopen.websecondopen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A358F3642636CC2000F06F9C /* Build configuration list for PBXProject "websecondopen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A358F37B2636CC2300F06F9C /* Debug */,
+				A358F37C2636CC2300F06F9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A358F37D2636CC2300F06F9C /* Build configuration list for PBXNativeTarget "websecondopen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A358F37E2636CC2300F06F9C /* Debug */,
+				A358F37F2636CC2300F06F9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A358F3612636CC2000F06F9C /* Project object */;
+}
